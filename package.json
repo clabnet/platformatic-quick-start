@@ -10,6 +10,7 @@
   "dependencies": {
     "@platformatic/db": "^1.7.1",
     "platformatic": "^1.7.1",
+    "@fastify/static": "^6.11.2",
     "fluent-json-schema": "^4.1.0"
   },
   "devDependencies": {

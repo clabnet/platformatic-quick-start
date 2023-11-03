@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fastify/static':
+    specifier: ^6.11.2
+    version: 6.12.0
   '@platformatic/db':
     specifier: ^1.7.1
     version: 1.7.1(typescript@5.2.2)

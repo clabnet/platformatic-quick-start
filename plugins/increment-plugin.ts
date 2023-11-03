@@ -3,7 +3,7 @@
 import S from 'fluent-json-schema'
 
 module.exports = async function plugin(app) {
-    app.log.info('plugin loaded')
+    app.log.info('plugin increment loaded')
 
     async function incrementQuoteLikes(id) {
         const { db, sql } = app.platformatic

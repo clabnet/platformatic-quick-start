@@ -5,7 +5,7 @@
     "graphql": false,
     "openapi": {
       "enabled": true,
-      "prefix": "/api",
+      "prefix": "",
       "info": {
         "version": "1.0.0",
         "title": "Gemini API",

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/rapidoc/dist/rapidoc-min.js"></script>
+    <style>
+    </style>
+  </head>
+  <body>
+    <rapi-doc spec-url="/documentation/json"  regular-font = "Lato"
+    render-style = "read"  show-header = "false">
+      <div>
+            <!-- provide slot attribute to place an element at desired location -->
+            <img slot="overview" src="./public/images/pomini-logo.png" style="margin: 20px; width: 360px; height: 90px" />
+      </div>
+
+      <div style="text-align: center;">
+        <img slot="overview" src="./public/images/gemini-doc.png"  />
+      </div>
+
+      <div slot="nav-logo" style="display: flex; align-items: center; justify-content: center;">
+        <img src = "./public/images/pomini_palla_80x74.png" style="width:40px; margin-right: 20px"><span style="color:#fff"> <b>Pomini Apps</b></span>
+      </div>
+
+    </rapi-doc>
+  </body>
+</html>

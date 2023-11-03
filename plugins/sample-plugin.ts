@@ -4,14 +4,8 @@
 
 /** @param {import('fastify').FastifyInstance} app */
 module.exports = async (app, opts) => {
-    app.log.info("Plugin loaded")
-    // app.post('/sum', async (req, reply) => {
-    //     const { x, y } = req.body
-    //     return { sum: (x + y) }
-    // })
-
+    app.log.info("Plugin sample loaded")
     const movies = await app.platformatic.entities.movie.find()
-    const movieYears = movies.map(movie => movie.year)
+    const movieYears = movies.map(movie => movie.id)
     app.log.info(movieYears)
-
 }

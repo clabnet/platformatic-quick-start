@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises'
 import { buildServer } from '@platformatic/db'
 
 const { createConnectionPool } = require('@platformatic/sql-mapper')
-const connectionString = 'postgres://postgres:postgres@127.0.0.1:5432/postgres'
+const connectionString = 'postgresql://postgres:changeme@localhost:5432/postgres'
 let counter = 0
 
 

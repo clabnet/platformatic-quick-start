@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "___test": "tsc && node --test dist/test/**/*.test.js",
+    "build": "platformatic compile",
+    "clean": "rimraf -fr ./dist",
+    "migrate": "platformatic db migrations apply",
+    "start": "platformatic start",
+    "test": "tsc && node --test dist/test/plugins/example.test.js"
+  },
+  "dependencies": {
+    "@platformatic/db": "^1.7.1",
+    "platformatic": "^1.7.1",
+    "fluent-json-schema": "^4.1.0"
+  },
+  "devDependencies": {
+    "@platformatic/sql-mapper": "^1.7.1",
+    "fastify": "^4.24.3",
+    "typescript": "~5.2.2"
+  },
+  "engines": {
+    "node": "^18.8.0 || >=20.6.0"
+  }
+}

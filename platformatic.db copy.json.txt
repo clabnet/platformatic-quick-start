@@ -31,7 +31,7 @@
       }
     },
     "schemalock": true,
-    "cache": false,
+    "cache": true,
     "limit": {
       "default": 25,
       "max": 1000
@@ -51,8 +51,7 @@
     }
   },
   "migrations": {
-    "dir": "migrations",
-    "autoApply": true
+    "dir": "migrations"
   },
   "plugins": {
     "paths": [
@@ -68,5 +67,30 @@
   },
   "types": {
     "autogenerate": true
+  },
+  "authorization": {
+    "jwt": {
+      "jwks": {
+        "allowedDomains": [
+          "https://horizon-dev.germanywestcentral.cloudapp.azure.com/keycloak/realms/pomini/"
+        ]
+      }
+    },
+    "rules": [
+      {
+        "role": "anonymous",
+        "entity": "bom",
+        "find": true,
+        "save": false,
+        "delete": false
+      },
+      {
+        "role": "default-roles-pomini",
+        "entity": "bom",
+        "find": true,
+        "save": true,
+        "delete": true
+      }
+    ]
   }
 }

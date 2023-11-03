@@ -1,0 +1,670 @@
+[
+  {
+    "schema": "public",
+    "table": "_prisma_migrations",
+    "constraints": [
+      {
+        "constraint_catalog": "postgres",
+        "constraint_schema": "public",
+        "constraint_name": "_prisma_migrations_pkey",
+        "table_catalog": "postgres",
+        "table_schema": "public",
+        "table_name": "_prisma_migrations",
+        "constraint_type": "PRIMARY KEY",
+        "is_deferrable": "NO",
+        "initially_deferred": "NO",
+        "enforced": "YES",
+        "nulls_distinct": null,
+        "column_name": "id",
+        "ordinal_position": 1,
+        "position_in_unique_constraint": null,
+        "foreign_table_name": "_prisma_migrations",
+        "foreign_column_name": "id",
+        "foreign_table_schema": "public"
+      }
+    ],
+    "columns": [
+      {
+        "column_name": "id",
+        "udt_name": "varchar",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "character varying",
+        "isArray": false
+      },
+      {
+        "column_name": "checksum",
+        "udt_name": "varchar",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "character varying",
+        "isArray": false
+      },
+      {
+        "column_name": "finished_at",
+        "udt_name": "timestamptz",
+        "is_nullable": "YES",
+        "is_generated": "NEVER",
+        "data_type": "timestamp with time zone",
+        "isArray": false
+      },
+      {
+        "column_name": "migration_name",
+        "udt_name": "varchar",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "character varying",
+        "isArray": false
+      },
+      {
+        "column_name": "logs",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "rolled_back_at",
+        "udt_name": "timestamptz",
+        "is_nullable": "YES",
+        "is_generated": "NEVER",
+        "data_type": "timestamp with time zone",
+        "isArray": false
+      },
+      {
+        "column_name": "started_at",
+        "udt_name": "timestamptz",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "timestamp with time zone",
+        "isArray": false
+      },
+      {
+        "column_name": "applied_steps_count",
+        "udt_name": "int4",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "integer",
+        "isArray": false
+      }
+    ]
+  },
+  {
+    "schema": "public",
+    "table": "bom",
+    "constraints": [
+      {
+        "constraint_catalog": "postgres",
+        "constraint_schema": "public",
+        "constraint_name": "bom_pkey",
+        "table_catalog": "postgres",
+        "table_schema": "public",
+        "table_name": "bom",
+        "constraint_type": "PRIMARY KEY",
+        "is_deferrable": "NO",
+        "initially_deferred": "NO",
+        "enforced": "YES",
+        "nulls_distinct": null,
+        "column_name": "uuid",
+        "ordinal_position": 1,
+        "position_in_unique_constraint": null,
+        "foreign_table_name": "bom",
+        "foreign_column_name": "uuid",
+        "foreign_table_schema": "public"
+      }
+    ],
+    "columns": [
+      {
+        "column_name": "id",
+        "udt_name": "int4",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "integer",
+        "isArray": false
+      },
+      {
+        "column_name": "selection",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "type",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "level",
+        "udt_name": "int4",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "integer",
+        "isArray": false
+      },
+      {
+        "column_name": "t_n",
+        "udt_name": "int4",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "integer",
+        "isArray": false
+      },
+      {
+        "column_name": "quantity",
+        "udt_name": "int4",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "integer",
+        "isArray": false
+      },
+      {
+        "column_name": "item",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "parent",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "path",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "path_id",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "revision",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "description",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "description_en",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "spare_index",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "wbe",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "description_wbe",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "plant_id",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "createdAt",
+        "udt_name": "timestamp",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "timestamp without time zone",
+        "isArray": false
+      },
+      {
+        "column_name": "updatedAt",
+        "udt_name": "timestamp",
+        "is_nullable": "YES",
+        "is_generated": "NEVER",
+        "data_type": "timestamp without time zone",
+        "isArray": false
+      },
+      {
+        "column_name": "uuid",
+        "udt_name": "uuid",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "uuid",
+        "isArray": false
+      }
+    ]
+  },
+  {
+    "schema": "public",
+    "table": "note",
+    "constraints": [
+      {
+        "constraint_catalog": "postgres",
+        "constraint_schema": "public",
+        "constraint_name": "note_pkey",
+        "table_catalog": "postgres",
+        "table_schema": "public",
+        "table_name": "note",
+        "constraint_type": "PRIMARY KEY",
+        "is_deferrable": "NO",
+        "initially_deferred": "NO",
+        "enforced": "YES",
+        "nulls_distinct": null,
+        "column_name": "uuid",
+        "ordinal_position": 1,
+        "position_in_unique_constraint": null,
+        "foreign_table_name": "note",
+        "foreign_column_name": "uuid",
+        "foreign_table_schema": "public"
+      },
+      {
+        "constraint_catalog": "postgres",
+        "constraint_schema": "public",
+        "constraint_name": "note_uuid_fkey",
+        "table_catalog": "postgres",
+        "table_schema": "public",
+        "table_name": "note",
+        "constraint_type": "FOREIGN KEY",
+        "is_deferrable": "NO",
+        "initially_deferred": "NO",
+        "enforced": "YES",
+        "nulls_distinct": null,
+        "column_name": "uuid",
+        "ordinal_position": 1,
+        "position_in_unique_constraint": 1,
+        "foreign_table_name": "bom",
+        "foreign_column_name": "uuid",
+        "foreign_table_schema": "public",
+        "loweredTableWithSchemaName": "note",
+        "foreignEntityName": "bom",
+        "entityName": "note"
+      }
+    ],
+    "columns": [
+      {
+        "column_name": "uuid",
+        "udt_name": "uuid",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "uuid",
+        "isArray": false
+      },
+      {
+        "column_name": "content",
+        "udt_name": "varchar",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "character varying",
+        "isArray": false
+      },
+      {
+        "column_name": "createdAt",
+        "udt_name": "timestamp",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "timestamp without time zone",
+        "isArray": false
+      },
+      {
+        "column_name": "updatedAt",
+        "udt_name": "timestamp",
+        "is_nullable": "YES",
+        "is_generated": "NEVER",
+        "data_type": "timestamp without time zone",
+        "isArray": false
+      }
+    ]
+  },
+  {
+    "schema": "public",
+    "table": "drawing",
+    "constraints": [
+      {
+        "constraint_catalog": "postgres",
+        "constraint_schema": "public",
+        "constraint_name": "drawing_pkey",
+        "table_catalog": "postgres",
+        "table_schema": "public",
+        "table_name": "drawing",
+        "constraint_type": "PRIMARY KEY",
+        "is_deferrable": "NO",
+        "initially_deferred": "NO",
+        "enforced": "YES",
+        "nulls_distinct": null,
+        "column_name": "uuid",
+        "ordinal_position": 1,
+        "position_in_unique_constraint": null,
+        "foreign_table_name": "drawing",
+        "foreign_column_name": "uuid",
+        "foreign_table_schema": "public"
+      }
+    ],
+    "columns": [
+      {
+        "column_name": "filename",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "extension",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "size",
+        "udt_name": "int4",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "integer",
+        "isArray": false
+      },
+      {
+        "column_name": "creation_date",
+        "udt_name": "timestamp",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "timestamp without time zone",
+        "isArray": false
+      },
+      {
+        "column_name": "last_access_date",
+        "udt_name": "timestamp",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "timestamp without time zone",
+        "isArray": false
+      },
+      {
+        "column_name": "last_modified_date",
+        "udt_name": "timestamp",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "timestamp without time zone",
+        "isArray": false
+      },
+      {
+        "column_name": "plant_id",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "uuid",
+        "udt_name": "uuid",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "uuid",
+        "isArray": false
+      }
+    ]
+  },
+  {
+    "schema": "public",
+    "table": "versions",
+    "constraints": [
+      {
+        "constraint_catalog": "postgres",
+        "constraint_schema": "public",
+        "constraint_name": "versions_pkey",
+        "table_catalog": "postgres",
+        "table_schema": "public",
+        "table_name": "versions",
+        "constraint_type": "PRIMARY KEY",
+        "is_deferrable": "NO",
+        "initially_deferred": "NO",
+        "enforced": "YES",
+        "nulls_distinct": null,
+        "column_name": "version",
+        "ordinal_position": 1,
+        "position_in_unique_constraint": null,
+        "foreign_table_name": "versions",
+        "foreign_column_name": "version",
+        "foreign_table_schema": "public"
+      }
+    ],
+    "columns": [
+      {
+        "column_name": "version",
+        "udt_name": "int8",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "bigint",
+        "isArray": false
+      },
+      {
+        "column_name": "name",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "md5",
+        "udt_name": "text",
+        "is_nullable": "YES",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "run_at",
+        "udt_name": "timestamptz",
+        "is_nullable": "YES",
+        "is_generated": "NEVER",
+        "data_type": "timestamp with time zone",
+        "isArray": false
+      }
+    ]
+  },
+  {
+    "schema": "public",
+    "table": "movies",
+    "constraints": [
+      {
+        "constraint_catalog": "postgres",
+        "constraint_schema": "public",
+        "constraint_name": "movies_pkey",
+        "table_catalog": "postgres",
+        "table_schema": "public",
+        "table_name": "movies",
+        "constraint_type": "PRIMARY KEY",
+        "is_deferrable": "NO",
+        "initially_deferred": "NO",
+        "enforced": "YES",
+        "nulls_distinct": null,
+        "column_name": "id",
+        "ordinal_position": 1,
+        "position_in_unique_constraint": null,
+        "foreign_table_name": "movies",
+        "foreign_column_name": "id",
+        "foreign_table_schema": "public"
+      },
+      {
+        "constraint_catalog": "postgres",
+        "constraint_schema": "public",
+        "constraint_name": "movies_name_key",
+        "table_catalog": "postgres",
+        "table_schema": "public",
+        "table_name": "movies",
+        "constraint_type": "UNIQUE",
+        "is_deferrable": "NO",
+        "initially_deferred": "NO",
+        "enforced": "YES",
+        "nulls_distinct": "YES",
+        "column_name": "name",
+        "ordinal_position": 1,
+        "position_in_unique_constraint": null,
+        "foreign_table_name": "movies",
+        "foreign_column_name": "name",
+        "foreign_table_schema": "public"
+      }
+    ],
+    "columns": [
+      {
+        "column_name": "id",
+        "udt_name": "int4",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "integer",
+        "isArray": false
+      },
+      {
+        "column_name": "name",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      }
+    ]
+  },
+  {
+    "schema": "public",
+    "table": "quotes",
+    "constraints": [
+      {
+        "constraint_catalog": "postgres",
+        "constraint_schema": "public",
+        "constraint_name": "quotes_pkey",
+        "table_catalog": "postgres",
+        "table_schema": "public",
+        "table_name": "quotes",
+        "constraint_type": "PRIMARY KEY",
+        "is_deferrable": "NO",
+        "initially_deferred": "NO",
+        "enforced": "YES",
+        "nulls_distinct": null,
+        "column_name": "id",
+        "ordinal_position": 1,
+        "position_in_unique_constraint": null,
+        "foreign_table_name": "quotes",
+        "foreign_column_name": "id",
+        "foreign_table_schema": "public"
+      },
+      {
+        "constraint_catalog": "postgres",
+        "constraint_schema": "public",
+        "constraint_name": "quotes_movie_id_fkey",
+        "table_catalog": "postgres",
+        "table_schema": "public",
+        "table_name": "quotes",
+        "constraint_type": "FOREIGN KEY",
+        "is_deferrable": "NO",
+        "initially_deferred": "NO",
+        "enforced": "YES",
+        "nulls_distinct": null,
+        "column_name": "movie_id",
+        "ordinal_position": 1,
+        "position_in_unique_constraint": 1,
+        "foreign_table_name": "movies",
+        "foreign_column_name": "id",
+        "foreign_table_schema": "public",
+        "loweredTableWithSchemaName": "quotes",
+        "foreignEntityName": "movie",
+        "entityName": "quote"
+      }
+    ],
+    "columns": [
+      {
+        "column_name": "id",
+        "udt_name": "int4",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "integer",
+        "isArray": false
+      },
+      {
+        "column_name": "quote",
+        "udt_name": "text",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "text",
+        "isArray": false
+      },
+      {
+        "column_name": "said_by",
+        "udt_name": "varchar",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "character varying",
+        "isArray": false
+      },
+      {
+        "column_name": "created_at",
+        "udt_name": "timestamp",
+        "is_nullable": "NO",
+        "is_generated": "NEVER",
+        "data_type": "timestamp without time zone",
+        "isArray": false
+      },
+      {
+        "column_name": "movie_id",
+        "udt_name": "int4",
+        "is_nullable": "YES",
+        "is_generated": "NEVER",
+        "data_type": "integer",
+        "isArray": false
+      },
+      {
+        "column_name": "likes",
+        "udt_name": "int4",
+        "is_nullable": "YES",
+        "is_generated": "NEVER",
+        "data_type": "integer",
+        "isArray": false
+      }
+    ]
+  }
+]

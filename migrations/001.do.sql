@@ -1,6 +1,6 @@
-
--- Add SQL in this file to create the database tables for your API
-CREATE TABLE IF NOT EXISTS movies (
+CREATE TABLE IF NOT EXISTS quotes (
   id SERIAL PRIMARY KEY,
-  title TEXT NOT NULL
+  quote TEXT NOT NULL,
+  said_by VARCHAR(255) NOT NULL,
+  created_at timestamp(3) NOT NULL DEFAULT CURRENT_TIMESTAMP
 );

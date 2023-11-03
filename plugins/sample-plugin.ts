@@ -7,5 +7,5 @@ module.exports = async (app, opts) => {
     app.log.info("Plugin sample loaded")
     const movies = await app.platformatic.entities.movie.find()
     const movieYears = movies.map(movie => movie.id)
-    app.log.info(movieYears)
+    // app.log.info(movieYears)
 }

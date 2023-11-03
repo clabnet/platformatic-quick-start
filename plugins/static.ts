@@ -10,12 +10,10 @@ import { join } from 'path'
  */
 export default async function (fastify: FastifyInstance, opts) {
 
-  // const publicPath = join(process.cwd(), "/public")
-  // const publicPath = join(fastify.platformatic.configManager.dirname, "/public")
-  // console.log("app.platformatic.configManager.dirname", fastify.platformatic.configManager.dirname)
+  const publicPath = join(process.cwd(), "/public")
 
   void fastify.register(fastifyStatic, {
-    root: `${fastify.platformatic.configManager.dirname}/public`,
+    root: publicPath,
     prefix: "/public",
     decorateReply: true,
     index: false,
@@ -39,7 +37,7 @@ export default async function (fastify: FastifyInstance, opts) {
     }
   })
 
-  // const publicFolder = join(publicPath)
-  // fastify.log.debug(`Registered plugin static`)
-  // fastify.log.info(`Public folder: ${publicFolder}`)
+  const publicFolder = join(publicPath)
+  fastify.log.debug(`Registered plugin static`)
+  fastify.log.info(`Public folder: ${publicFolder}`)
 }

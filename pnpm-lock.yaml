@@ -6,22 +6,22 @@ settings:
 
 dependencies:
   '@fastify/static':
-    specifier: ^6.11.2
+    specifier: ^6.12.0
     version: 6.12.0
   '@platformatic/db':
-    specifier: ^1.7.1
-    version: 1.7.1(typescript@5.2.2)
+    specifier: ^1.8.1
+    version: 1.8.1(typescript@5.2.2)
   fluent-json-schema:
-    specifier: ^4.1.0
-    version: 4.1.2
+    specifier: ^4.2.1
+    version: 4.2.1
   platformatic:
-    specifier: ^1.7.1
-    version: 1.7.1(typescript@5.2.2)
+    specifier: ^1.8.1
+    version: 1.8.1(typescript@5.2.2)
 
 devDependencies:
   '@platformatic/sql-mapper':
-    specifier: ^1.7.1
-    version: 1.7.1(typescript@5.2.2)
+    specifier: ^1.8.1
+    version: 1.8.1(typescript@5.2.2)
   fastify:
     specifier: ^4.24.3
     version: 4.24.3
@@ -201,7 +201,7 @@ packages:
   /@fastify/basic-auth@5.1.0:
     resolution: {integrity: sha512-oZYuI9EJQMdor1fZybb/sqV5zxbux2pSV7LK6Tj+Y/ZM1fuwK9jFYxNSur4tbTiJ+oFjDtbVvKaNBiSzqLaqdw==}
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       fastify-plugin: 4.5.1
     dev: false
 
@@ -219,13 +219,13 @@ packages:
   /@fastify/deepmerge@1.3.0:
     resolution: {integrity: sha512-J8TOSBq3SoZbDhM9+R/u77hP93gz/rajSA+K2kGyijPpORPWUXHUpTaleoj+92As0S9uPRP7Oi8IqMf0u+ro6A==}
 
-  /@fastify/error@3.4.0:
-    resolution: {integrity: sha512-e/mafFwbK3MNqxUcFBLgHhgxsF8UT1m8aj0dAlqEa2nJEgPsRtpHTZ3ObgrgkZ2M1eJHPTwgyUl/tXkvabsZdQ==}
+  /@fastify/error@3.4.1:
+    resolution: {integrity: sha512-wWSvph+29GR783IhmvdwWnN4bUxTD01Vm5Xad4i7i1VuAOItLvbPAb69sb0IQ2N57yprvhNIwAP5B6xfKTmjmQ==}
 
   /@fastify/fast-json-stringify-compiler@4.3.0:
     resolution: {integrity: sha512-aZAXGYo6m22Fk1zZzEUKBvut/CIIQe/BapEORnxiD5Qr0kPHqqI69NtEMCme74h+at72sPhbkb4ZrLd1W3KRLA==}
     dependencies:
-      fast-json-stringify: 5.9.0
+      fast-json-stringify: 5.9.1
 
   /@fastify/http-proxy@9.3.0:
     resolution: {integrity: sha512-fQkdgwco8q7eI2PQA8lH++y3Q+hNlIByBYsphl+r4FKRbmrU7ey4WOA/CA9tBhe4oEojGpa3eTU4jXvqf2DBuQ==}
@@ -242,7 +242,7 @@ packages:
   /@fastify/jwt@7.2.2:
     resolution: {integrity: sha512-ZF0lyEjEIJnwqe0zjeSQkjfpAIrKdZfhTwUM+Z74NFEN+WodDi12cjABFPm2CrI8jtc4KInytSA74bN2jJ0MGQ==}
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       '@lukeed/ms': 2.0.1
       fast-jwt: 3.3.1
       fastify-plugin: 4.5.1
@@ -252,13 +252,13 @@ packages:
   /@fastify/reply-from@9.4.0:
     resolution: {integrity: sha512-A0rT2o2Y8Xe9+CpS/VCfpWMLyptwI7peljdtdsW3nlLwwMbDr3kxDry5aiIb43SCfI1nr3B5mMH48kerJAZ8YQ==}
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       end-of-stream: 1.4.4
       fast-querystring: 1.1.2
       fastify-plugin: 4.5.1
       pump: 3.0.0
       tiny-lru: 11.2.5
-      undici: 5.27.0
+      undici: 5.27.2
     dev: false
 
   /@fastify/restartable@2.1.1:
@@ -297,7 +297,7 @@ packages:
       fastify-plugin: 4.5.1
       openapi-types: 12.1.3
       rfdc: 1.3.0
-      yaml: 2.3.3
+      yaml: 2.3.4
     dev: false
 
   /@fastify/swagger@8.12.0:
@@ -307,7 +307,7 @@ packages:
       json-schema-resolver: 2.0.0
       openapi-types: 12.1.3
       rfdc: 1.3.0
-      yaml: 2.3.3
+      yaml: 2.3.4
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -315,7 +315,7 @@ packages:
   /@fastify/under-pressure@8.3.0:
     resolution: {integrity: sha512-ap1EePB9vHm8uQLM0nnaOeIMBLooNmAMTnccavBRwaXmu+acJFuSEQRVdMGRkW6viFDhdo5RGTcHzMBQyrucEA==}
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       fastify-plugin: 4.5.1
     dev: false
 
@@ -380,7 +380,7 @@ packages:
   /@mercuriusjs/federation@2.0.0:
     resolution: {integrity: sha512-hBL2Zhdf0p2Ab2SDPXcVnNsYTf5x50xPAyHm2HpmXreHS7aGt4obX8g8JrqRhIfOApcRg5l9RQ2OZqaUYeR8sQ==}
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       graphql: 16.8.1
       mercurius: 13.2.2(graphql@16.8.1)
     transitivePeerDependencies:
@@ -528,11 +528,11 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /@platformatic/authenticate@1.7.1:
-    resolution: {integrity: sha512-Exh1MCiqu0UtGzAbZ23WPFiMhAFltQ9jc7QdIOG0OFCzQPF26MHUaHa+FPStMnBlaRevQab/IpqQCascN7OS+A==}
+  /@platformatic/authenticate@1.8.1:
+    resolution: {integrity: sha512-v1wVCBAtA15satbt/DIiCimh23LoCV33j91XeQm91kiWVAgvmvRvJ6vwLE8kVgXJkcNev8EiUIMv9xdP6svuKw==}
     dependencies:
-      '@fastify/error': 3.4.0
-      '@platformatic/config': 1.7.1
+      '@fastify/error': 3.4.1
+      '@platformatic/config': 1.8.1
       colorette: 2.0.20
       commist: 3.2.0
       es-main: 1.3.0
@@ -544,14 +544,14 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@platformatic/client-cli@1.7.1:
-    resolution: {integrity: sha512-ApHmT1iw1yQRwcxgJi2boZBKfN6ugQyXTamzFgiVLzJnJt7nQCZqDbX1A4CIUuvMtcUn5rIRSavumHYeSE8SCQ==}
+  /@platformatic/client-cli@1.8.1:
+    resolution: {integrity: sha512-QIErBwxE7/7hNTUb52yNxzxr9nKKUMDHSQuVxTC54sqtOkMgH4B9WNYb+VASfT7/j+XkwdiRgktK7QiFekF1ZQ==}
     hasBin: true
     dependencies:
-      '@fastify/error': 3.4.0
-      '@platformatic/client': 1.7.1
-      '@platformatic/config': 1.7.1
-      '@platformatic/metaconfig': 1.7.1
+      '@fastify/error': 3.4.1
+      '@platformatic/client': 1.8.1
+      '@platformatic/config': 1.8.1
+      '@platformatic/metaconfig': 1.8.1
       abstract-logging: 2.0.1
       camelcase: 6.3.0
       code-block-writer: 12.0.0
@@ -564,36 +564,36 @@ packages:
       minimist: 1.2.8
       pino: 8.16.1
       pino-pretty: 10.2.3
-      undici: 5.27.0
-      yaml: 2.3.3
+      undici: 5.27.2
+      yaml: 2.3.4
     dev: false
 
-  /@platformatic/client@1.7.1:
-    resolution: {integrity: sha512-bpiF0FMTFBlx/aa31sE+Pck0lUg7YWbwWuFTE2s5gvWUI2UYbSeF3uZva0CoaX06+Pt/Fana+Trd1MXT9D++lg==}
+  /@platformatic/client@1.8.1:
+    resolution: {integrity: sha512-x0KwatuquiCpMwWRpgLHS8kh43Z6mL2jb9+kUF24YpxIdCQOkoK+jVNQJbcViiblu9LhNR8kJBX7zAK5vJCyaA==}
     dependencies:
       '@apidevtools/json-schema-ref-parser': 11.1.0
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       abstract-logging: 2.0.1
       ajv: 8.12.0
       camelcase: 6.3.0
       jsonpointer: 5.0.1
-      undici: 5.27.0
+      undici: 5.27.2
     dev: false
 
-  /@platformatic/composer@1.7.1:
-    resolution: {integrity: sha512-l+BVwnyC4QE9n7hW57GfMFMyNNJSr/hA46ZyMjXPGgF65eChpNMIVLxE7EIgOrBfauHw3FEnvumzacxWy1ZD3Q==}
+  /@platformatic/composer@1.8.1:
+    resolution: {integrity: sha512-dWL53OLAM24IAx+2d0OVg0ylrehaeXLkpGy6J+g1cRdlgabDmBVgCyYOL8GEdF2+BuKTy1dXcAv/lZ750IpEYg==}
     hasBin: true
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       '@fastify/http-proxy': 9.3.0
       '@fastify/reply-from': 9.4.0
       '@fastify/static': 6.12.0
       '@fastify/swagger': 8.12.0
       '@fastify/swagger-ui': 1.10.1
-      '@platformatic/config': 1.7.1
-      '@platformatic/service': 1.7.1
-      '@platformatic/swagger-ui-theme': 1.7.1
-      '@platformatic/telemetry': 1.7.1
+      '@platformatic/config': 1.8.1
+      '@platformatic/service': 1.8.1
+      '@platformatic/swagger-ui-theme': 1.8.1
+      '@platformatic/telemetry': 1.8.1
       ajv: 8.12.0
       commist: 3.2.0
       desm: 1.3.0
@@ -609,50 +609,50 @@ packages:
       pino-pretty: 10.2.3
       rfdc: 1.3.0
       ua-parser-js: 1.0.37
-      undici: 5.27.0
+      undici: 5.27.2
     transitivePeerDependencies:
       - bufferutil
       - supports-color
       - utf-8-validate
     dev: false
 
-  /@platformatic/config@1.7.1:
-    resolution: {integrity: sha512-YXzqv1zs/x6AvLuCmH035+8ZAmPNMi/Bajc9TqvnCgeD9rPXqQXX0+U5JuELkRL7p1ro22W1D/wIOnG4aBc0Hg==}
+  /@platformatic/config@1.8.1:
+    resolution: {integrity: sha512-cbFGlmno+BrjtkjfQpkq1Chw/z2vm483Gah8nC8qH2fxYN9/8CyXFR/dXWPFMU5NI3SGbWqE7L+w8wFfkLNFUg==}
     dependencies:
       '@fastify/deepmerge': 1.3.0
-      '@fastify/error': 3.4.0
-      '@platformatic/metaconfig': 1.7.1
-      '@platformatic/utils': 1.7.1
+      '@fastify/error': 3.4.1
+      '@platformatic/metaconfig': 1.8.1
+      '@platformatic/utils': 1.8.1
       ajv: 8.12.0
       dotenv: 16.3.1
       minimist: 1.2.8
       pupa: 3.1.0
       semver: 7.5.4
-      undici: 5.27.0
+      undici: 5.27.2
     dev: false
 
-  /@platformatic/db-authorization@1.7.1:
-    resolution: {integrity: sha512-s8v6BABTgqWZKl1eU9tNscxW4zZ3aARg0mikq1//C1LvMTqYjvKLJ2kJQBoWNE1NenNaOyEEA92kdxaiPWg8yQ==}
+  /@platformatic/db-authorization@1.8.1:
+    resolution: {integrity: sha512-zIre5hmD+5/yLEWvq3A+whPxRIapG4jlPJkPOe/XmUm0Y9T4BMpxHi5cOibSbVtTsLdfwSek8NAzNDF3xszy5g==}
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       '@fastify/jwt': 7.2.2
       fastify-plugin: 4.5.1
       fastify-user: 0.3.1
       get-jwks: 8.3.1
       leven: 3.1.0
-      undici: 5.27.0
+      undici: 5.27.2
     transitivePeerDependencies:
       - encoding
       - supports-color
     dev: false
 
-  /@platformatic/db-core@1.7.1(typescript@5.2.2):
-    resolution: {integrity: sha512-TtIkhIiSaNtfXYEENeM/qWoCFKdagQ4X9Rd5WzR4rlCUKBBIv9kXWlciIttFsSpn1hgagb0v5F/kUl7x/K3HSg==}
+  /@platformatic/db-core@1.8.1(typescript@5.2.2):
+    resolution: {integrity: sha512-3iwHwZxLYC1mU/IprWmpzKZEAe804ZqIY3Bh11+H81wtTlrsNiwBT6OwxfkdOShS1v1vKORlylA56bRmOp+kPg==}
     dependencies:
-      '@platformatic/sql-events': 1.7.1
-      '@platformatic/sql-graphql': 1.7.1
-      '@platformatic/sql-mapper': 1.7.1(typescript@5.2.2)
-      '@platformatic/sql-openapi': 1.7.1
+      '@platformatic/sql-events': 1.8.1
+      '@platformatic/sql-graphql': 1.8.1
+      '@platformatic/sql-mapper': 1.8.1(typescript@5.2.2)
+      '@platformatic/sql-openapi': 1.8.1
       fastify-plugin: 4.5.1
     transitivePeerDependencies:
       - bufferutil
@@ -662,28 +662,28 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@platformatic/db@1.7.1(typescript@5.2.2):
-    resolution: {integrity: sha512-G7HygIA3rGl3xKhrT0Zzn5txMdyEP+p8TuuKff3eD/A95P8gA7Je073CunzzzvhcK2FBU6JU7rB65NSgVGenpg==}
+  /@platformatic/db@1.8.1(typescript@5.2.2):
+    resolution: {integrity: sha512-Oa+y6R6z4+8AieTGjgXJs4cMIQx9pJ2dF7PMnYI9OLWHGvwhSl7OuUwOreFdlvZIJJCnK4c3pLnaUDHR8XVmbQ==}
     hasBin: true
     dependencies:
       '@fastify/accepts': 4.2.0
       '@fastify/basic-auth': 5.1.0
       '@fastify/cors': 8.4.1
       '@fastify/deepmerge': 1.3.0
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       '@fastify/static': 6.12.0
       '@fastify/swagger': 8.12.0
-      '@platformatic/config': 1.7.1
-      '@platformatic/db-authorization': 1.7.1
-      '@platformatic/db-core': 1.7.1(typescript@5.2.2)
-      '@platformatic/service': 1.7.1
-      '@platformatic/sql-events': 1.7.1
-      '@platformatic/sql-graphql': 1.7.1
-      '@platformatic/sql-json-schema-mapper': 1.7.1
-      '@platformatic/sql-mapper': 1.7.1(typescript@5.2.2)
-      '@platformatic/sql-openapi': 1.7.1
-      '@platformatic/telemetry': 1.7.1
-      '@platformatic/utils': 1.7.1
+      '@platformatic/config': 1.8.1
+      '@platformatic/db-authorization': 1.8.1
+      '@platformatic/db-core': 1.8.1(typescript@5.2.2)
+      '@platformatic/service': 1.8.1
+      '@platformatic/sql-events': 1.8.1
+      '@platformatic/sql-graphql': 1.8.1
+      '@platformatic/sql-json-schema-mapper': 1.8.1
+      '@platformatic/sql-mapper': 1.8.1(typescript@5.2.2)
+      '@platformatic/sql-openapi': 1.8.1
+      '@platformatic/telemetry': 1.8.1
+      '@platformatic/utils': 1.8.1
       camelcase: 6.3.0
       close-with-grace: 1.2.0
       code-block-writer: 12.0.0
@@ -713,16 +713,16 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@platformatic/deploy-client@1.7.1(typescript@5.2.2):
-    resolution: {integrity: sha512-6VUzvAW3XMSLLHjwBz8nHAAfwYJHQeJ9dfAUWBWx23dhncUDEgbpnAPjYEDr6A62xYo0p0An9OpQ9DU5V7S6Eg==}
+  /@platformatic/deploy-client@1.8.1(typescript@5.2.2):
+    resolution: {integrity: sha512-gfPJzIrssoTbu4QTwZ5O301LStFnBWgaa/20lKRCBA3BoCl2pjOISsSXJhqMig5Vhf2WuD3muON1bgEOSjLgMw==}
     dependencies:
-      '@fastify/error': 3.4.0
-      '@platformatic/config': 1.7.1
-      '@platformatic/runtime': 1.7.1(typescript@5.2.2)
-      '@platformatic/service': 1.7.1
+      '@fastify/error': 3.4.1
+      '@platformatic/config': 1.8.1
+      '@platformatic/runtime': 1.8.1(typescript@5.2.2)
+      '@platformatic/service': 1.8.1
       pretty-bytes: 6.1.1
       tar: 6.2.0
-      undici: 5.27.0
+      undici: 5.27.2
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -732,11 +732,11 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@platformatic/frontend-template@1.7.1(typescript@5.2.2):
-    resolution: {integrity: sha512-7ko7agLbu+heJLR+qGJapwwH6Ti6YaDVsPWTGFbA7NDCUA7G9WggQCIoLppfLwUvfwmsaGDbHhIE8rj4zwUr2Q==}
+  /@platformatic/frontend-template@1.8.1(typescript@5.2.2):
+    resolution: {integrity: sha512-aMOtUo2IrEsdmrJg8Fvu3rAnBUBxexuTcK1SYswFVLsTbEuYGp1YqTpax7/Ne6yQVAWdAcsk0UJn6LdcKs6EuA==}
     dependencies:
-      '@platformatic/client': 1.7.1
-      '@platformatic/db': 1.7.1(typescript@5.2.2)
+      '@platformatic/client': 1.8.1
+      '@platformatic/db': 1.8.1(typescript@5.2.2)
       camelcase: 8.0.0
       code-block-writer: 12.0.0
       desm: 1.3.0
@@ -745,7 +745,7 @@ packages:
       help-me: 4.2.0
       jsonpointer: 5.0.1
       minimist: 1.2.8
-      undici: 5.27.0
+      undici: 5.27.2
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -755,29 +755,29 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@platformatic/metaconfig@1.7.1:
-    resolution: {integrity: sha512-aa0oF9t6f4Hp8k5pM92nyaUpO4aIIH3mk8SnxuBB5kw0GVXyX2B1co5obM6k+IyB7oF00TVltPHFEREWqz+k5w==}
+  /@platformatic/metaconfig@1.8.1:
+    resolution: {integrity: sha512-60tf2CUtW1jXE0odppATg5MRAbbiHPizAtfhcpkK+LKCH35ZHEMpifZPv7VUH3OnPu2f0Cg9OmhG8jiN14yKpw==}
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       '@iarna/toml': 2.2.5
       json5: 2.2.3
       rfdc: 1.3.0
       semver: 7.5.4
-      yaml: 2.3.3
+      yaml: 2.3.4
     dev: false
 
-  /@platformatic/runtime@1.7.1(typescript@5.2.2):
-    resolution: {integrity: sha512-RmLK2qPnmqva3IYdUJwiogrXBnu0GRK1ux55S4CMMgpOMxdpVIVxoKEQ0j2VjmC9G8u86IXMs4y3NdDHnuv2Rg==}
+  /@platformatic/runtime@1.8.1(typescript@5.2.2):
+    resolution: {integrity: sha512-PLJOlMcbUOKyBBy+dTsVAyZ8MqUAbqxdo8Te4+mMCIpKk15Mzm1fHxlwk+ATUm5VHYYEb3bdaAObEKI0/o//jA==}
     hasBin: true
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       '@hapi/topo': 6.0.2
-      '@platformatic/composer': 1.7.1
-      '@platformatic/config': 1.7.1
-      '@platformatic/db': 1.7.1(typescript@5.2.2)
-      '@platformatic/service': 1.7.1
-      '@platformatic/telemetry': 1.7.1
-      '@platformatic/utils': 1.7.1
+      '@platformatic/composer': 1.8.1
+      '@platformatic/config': 1.8.1
+      '@platformatic/db': 1.8.1(typescript@5.2.2)
+      '@platformatic/service': 1.8.1
+      '@platformatic/telemetry': 1.8.1
+      '@platformatic/utils': 1.8.1
       close-with-grace: 1.2.0
       commist: 3.2.0
       debounce: 1.2.1
@@ -791,7 +791,7 @@ packages:
       minimist: 1.2.8
       pino: 8.16.1
       pino-pretty: 10.2.3
-      undici: 5.27.0
+      undici: 5.27.2
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -801,8 +801,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@platformatic/service@1.7.1:
-    resolution: {integrity: sha512-Li9D1HC2gfO9x0ewiZ/T38bQUPSuITBe858OGyLS8fNJULqpP03hDS/qrtJDX3qgN0wJIReui6SEJgVu8A6gRw==}
+  /@platformatic/service@1.8.1:
+    resolution: {integrity: sha512-axio9VzzNHEtA1z4Uj9701CAOhBqyGYo6AFovgcOD6rNQXk+7vJooW7kDPrUgAdBh57APURXq2woSVBJIJkrow==}
     hasBin: true
     dependencies:
       '@fastify/accepts': 4.2.0
@@ -816,11 +816,11 @@ packages:
       '@fastify/swagger-ui': 1.10.1
       '@fastify/under-pressure': 8.3.0
       '@mercuriusjs/federation': 2.0.0
-      '@platformatic/client': 1.7.1
-      '@platformatic/config': 1.7.1
-      '@platformatic/swagger-ui-theme': 1.7.1
-      '@platformatic/telemetry': 1.7.1
-      '@platformatic/utils': 1.7.1
+      '@platformatic/client': 1.8.1
+      '@platformatic/config': 1.8.1
+      '@platformatic/swagger-ui-theme': 1.8.1
+      '@platformatic/telemetry': 1.8.1
+      '@platformatic/utils': 1.8.1
       '@types/ws': 8.5.8
       ajv: 8.12.0
       close-with-grace: 1.2.0
@@ -846,10 +846,10 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@platformatic/sql-events@1.7.1:
-    resolution: {integrity: sha512-sQnMul4Dx9LEYdxpaOHJWY1Zw/JVD0ZEucG6LVn8uce5A8wrJsS3luPeiRo99cXIQc3aarILjWzmmNQfIx5JXA==}
+  /@platformatic/sql-events@1.8.1:
+    resolution: {integrity: sha512-0iQ+VKZJxq6OnOaWN2kIzrbo8edQY9ab4ZaNCzAuNPK2bNRHbJMSPpBEqMhSnCjirlt25R0P/oyRytwEZKNgXg==}
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       camelcase: 6.3.0
       fastify-plugin: 4.5.1
       mqemitter: 5.0.0
@@ -858,12 +858,12 @@ packages:
       - supports-color
     dev: false
 
-  /@platformatic/sql-graphql@1.7.1:
-    resolution: {integrity: sha512-7Zhja+wvaOyP3kMz+AwTF3M52FSiEmivJ6nriRJ/wOypP2FDXQ+/qL0YI6gCmnH6u9FsQuHbAp+ljTErlMRlGA==}
+  /@platformatic/sql-graphql@1.8.1:
+    resolution: {integrity: sha512-793W80jU5kA96rsjbrAk1rB60ahDcQdCrr0LBmMc7RU5PLJVbY6KeoaJ8HfB7KSMiZ6e4tfBgr+XvXqCwYL0Tg==}
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       '@mercuriusjs/federation': 2.0.0
-      '@platformatic/utils': 1.7.1
+      '@platformatic/utils': 1.8.1
       camelcase: 6.3.0
       fastify-plugin: 4.5.1
       graphql: 16.8.1
@@ -876,23 +876,23 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@platformatic/sql-json-schema-mapper@1.7.1:
-    resolution: {integrity: sha512-wrgMfz74bZPC4FCM/PavI8udTzCAjYp02GHO7obRWEPawqJnOueQb1Xn7GJeL4zKrcCx+ULA6yz6a0GGw2nysQ==}
+  /@platformatic/sql-json-schema-mapper@1.8.1:
+    resolution: {integrity: sha512-iwnENrhXs0aeKeq2VIre9CPUC7cL35obw1D3PbsYhGU/Kx9ZwkLMZ0yKsEJZlf6yNgYuIMK21TkeCEVT1ikSnA==}
     dependencies:
       code-block-writer: 12.0.0
       safe-identifier: 0.4.2
     dev: false
 
-  /@platformatic/sql-mapper@1.7.1(typescript@5.2.2):
-    resolution: {integrity: sha512-hBi3Q21grn9F8Xgw30dgNqt97jkhkIO5eumfzzY//eeF4Ku1o3LuMjB7/FhZVC7u9J0w0ge5UoZBuHKdlHqZmA==}
+  /@platformatic/sql-mapper@1.8.1(typescript@5.2.2):
+    resolution: {integrity: sha512-Y95r3DAA7PIyj21QpXt/DD3DZvBjsbuEQdOANIILj5x6zNoOmpM+YsNAMdjHtgnwimazC///bzMZtFVG75Zplg==}
     dependencies:
       '@databases/mysql': 6.0.0(typescript@5.2.2)
       '@databases/pg': 5.5.0(typescript@5.2.2)
       '@databases/sql': 3.3.0
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       '@hapi/topo': 6.0.2
       '@matteo.collina/sqlite-pool': 0.3.0
-      '@platformatic/utils': 1.7.1
+      '@platformatic/utils': 1.8.1
       async-cache-dedupe: 2.0.0
       camelcase: 6.3.0
       fastify-plugin: 4.5.1
@@ -901,16 +901,16 @@ packages:
       - pg-native
       - typescript
 
-  /@platformatic/sql-openapi@1.7.1:
-    resolution: {integrity: sha512-4B1hrt+70r5mvREI5hxTSshV7ywjVGPBA77XLN+IZE7/RRKGuMHTy+fz90wTvP+LS+EC/uwKSMfmuCYdJuWN5A==}
+  /@platformatic/sql-openapi@1.8.1:
+    resolution: {integrity: sha512-wzY1HF+WVvbUoUrtFwE41jynrv7xNRb2PVyXS8gwV5bNEWP81TCv/zc/j9P81KBowl36qmLEh63xHOZk9lrQZQ==}
     dependencies:
       '@fastify/deepmerge': 1.3.0
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       '@fastify/swagger': 8.12.0
       '@fastify/swagger-ui': 1.10.1
-      '@platformatic/sql-json-schema-mapper': 1.7.1
-      '@platformatic/swagger-ui-theme': 1.7.1
-      '@platformatic/utils': 1.7.1
+      '@platformatic/sql-json-schema-mapper': 1.8.1
+      '@platformatic/swagger-ui-theme': 1.8.1
+      '@platformatic/utils': 1.8.1
       camelcase: 6.3.0
       fastify-plugin: 4.5.1
       inflected: 2.1.0
@@ -918,12 +918,12 @@ packages:
       - supports-color
     dev: false
 
-  /@platformatic/swagger-ui-theme@1.7.1:
-    resolution: {integrity: sha512-vZ/UBawTsHlJdg7bNScupHFiD43uS5qUIUUne/kRt+BOowjxwNw1mTc99E1N0ofk7MA3TAJPVa4PBTV0m7iX0A==}
+  /@platformatic/swagger-ui-theme@1.8.1:
+    resolution: {integrity: sha512-N0DDW7+qf0/TET6kCKj2XiRSn7aBImtnbnzSlpK4f9aUlhLBNy4h8C6EBNCaR5mrefOJ6VhDbIn7JrmmMB9fyA==}
     dev: false
 
-  /@platformatic/telemetry@1.7.1:
-    resolution: {integrity: sha512-9K8CS6eczvGkxesCqJjrfz8DRlbz+/ZnZBzaIZsKNYvT6OecOVMYWqyXt9T6BYP8L66LuHOZtJY2S2vi/8pU4Q==}
+  /@platformatic/telemetry@1.8.1:
+    resolution: {integrity: sha512-QIfQHFy9fp5U1w4el8Uul5Tt/P4P6h3z5c2SO2BQ5WqS47VdTcfUKAb5BDG3mQ/VYRW1jyy5T2J0Tun7bLb+AQ==}
     dependencies:
       '@fastify/swagger': 8.12.0
       '@opentelemetry/api': 1.6.0
@@ -939,14 +939,14 @@ packages:
       - supports-color
     dev: false
 
-  /@platformatic/utils@1.7.1:
-    resolution: {integrity: sha512-i72s/ezjyi1mhJK6ifJk0QzJosMLsUAVjDefZcwgv8oe+n4/H5gbfKCrKlaG33hSeWMSRm5zAMnigmi1Biwdlg==}
+  /@platformatic/utils@1.8.1:
+    resolution: {integrity: sha512-wqLeXMQX0289gQ1E2aJ1Il3heCp2kvZ+4hj/sRrBNQ1pIb5aX9EfI1FjiJzhaRrPIihSc8ljvT69B8iCUJGK3Q==}
     dependencies:
       '@fastify/deepmerge': 1.3.0
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       leven: 3.1.0
       minimatch: 8.0.4
-      undici: 5.27.0
+      undici: 5.27.2
 
   /@protobufjs/aspromise@1.1.2:
     resolution: {integrity: sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ==}
@@ -1431,11 +1431,11 @@ packages:
       path-type: 4.0.0
       typescript: 5.2.2
 
-  /create-platformatic@1.7.1:
-    resolution: {integrity: sha512-3drYTSx4YbPN7QoHzT5Y/xZcvHECMexpi2LEajRPYFn+GutrkvBa3ktdn+XkiO3tCUU4p8AewNTzatMxzy7T0Q==}
+  /create-platformatic@1.8.1:
+    resolution: {integrity: sha512-GH4lkuc87wK+YfNi2pINw/L25/Ifn2s0Of1N3G2EEqXGEJOMMg/RYwhnTKoThMK2jWyo6s5ouK9qUsbrQ7IGSQ==}
     hasBin: true
     dependencies:
-      '@platformatic/config': 1.7.1
+      '@platformatic/config': 1.8.1
       boring-name-generator: 1.0.3
       chalk: 5.3.0
       columnify: 1.6.0
@@ -1454,7 +1454,7 @@ packages:
       pupa: 3.1.0
       semver: 7.5.4
       strip-ansi: 7.1.0
-      undici: 5.27.0
+      undici: 5.27.2
       which: 3.0.1
     transitivePeerDependencies:
       - supports-color
@@ -1668,8 +1668,8 @@ packages:
   /fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
 
-  /fast-json-stringify@5.9.0:
-    resolution: {integrity: sha512-hXu5mchOrV7r1wzY2na0VEJZbb2gUAv5Mrlnq1QvdhZHt8k3pYnwZ6YEVbasbvPc1Ki+FyeTRJW8yDN9jN40yQ==}
+  /fast-json-stringify@5.9.1:
+    resolution: {integrity: sha512-NMrf+uU9UJnTzfxaumMDXK1NWqtPCfGoM9DYIE+ESlaTQqjlANFBy0VAbsm6FB88Mx0nceyi18zTo5kIEUlzxg==}
     dependencies:
       '@fastify/deepmerge': 1.3.0
       ajv: 8.12.0
@@ -1753,13 +1753,13 @@ packages:
   /fastify-undici-dispatcher@0.5.0:
     resolution: {integrity: sha512-6ASeYGg0tGIUhlX+dzDTw2kjqQDzVvOwkk5SQ/MRClrXq8RPpO6pQFUwBjJygiL6MueQpsCIkyLMdICl0Xed6Q==}
     dependencies:
-      undici: 5.27.0
+      undici: 5.27.2
     dev: false
 
   /fastify-user@0.3.1:
     resolution: {integrity: sha512-Gx6FxRjoPWKZMmpAmHmCwhkwgJpdBLXuko09Z6T4rLOw+YR67znjbv35Ec4r0g3L5tsOKc8hDPz6L0tZQlX9Ww==}
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       '@fastify/jwt': 7.2.2
       fastify: 4.24.3
       fastify-plugin: 4.5.1
@@ -1773,12 +1773,12 @@ packages:
     resolution: {integrity: sha512-6HHJ+R2x2LS3y1PqxnwEIjOTZxFl+8h4kSC/TuDPXtA+v2JnV9yEtOsNSKK1RMD7sIR2y1ZsA4BEFaid/cK5pg==}
     dependencies:
       '@fastify/ajv-compiler': 3.5.0
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       '@fastify/fast-json-stringify-compiler': 4.3.0
       abstract-logging: 2.0.1
       avvio: 8.2.1
       fast-content-type-parse: 1.1.0
-      fast-json-stringify: 5.9.0
+      fast-json-stringify: 5.9.1
       find-my-way: 7.7.0
       light-my-request: 5.11.0
       pino: 8.16.1
@@ -1837,8 +1837,8 @@ packages:
       path-exists: 5.0.0
     dev: false
 
-  /fluent-json-schema@4.1.2:
-    resolution: {integrity: sha512-QRYyoGjGjgSW19+bnecS8qDlr/wHIOTTkn2mfxYnCpDjbFiG0ZWt+FYArPqsNuZFhuqUYyJvTKEoWy0IORgLVw==}
+  /fluent-json-schema@4.2.1:
+    resolution: {integrity: sha512-vSvURY8BBRqxOFquy/wwjdnT4z07j2NZ+Cm3Nj881NHXKPSdiE4ZNyRImDh+SIk2yFZKzj7Clt+ENb5ha4uYJA==}
     dependencies:
       '@fastify/deepmerge': 1.3.0
     dev: false
@@ -1945,7 +1945,7 @@ packages:
       graphql: '>=15'
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.8.1)
-      fast-json-stringify: 5.9.0
+      fast-json-stringify: 5.9.1
       generate-function: 2.3.1
       graphql: 16.8.1
       lodash.memoize: 4.1.2
@@ -2377,7 +2377,7 @@ packages:
     peerDependencies:
       graphql: ^16.0.0
     dependencies:
-      '@fastify/error': 3.4.0
+      '@fastify/error': 3.4.1
       '@fastify/static': 6.12.0
       '@fastify/websocket': 8.2.0
       fastify-plugin: 4.5.1
@@ -2390,7 +2390,7 @@ packages:
       secure-json-parse: 2.7.0
       single-user-cache: 0.6.0
       tiny-lru: 11.2.5
-      undici: 5.27.0
+      undici: 5.27.2
       ws: 8.14.2
     transitivePeerDependencies:
       - bufferutil
@@ -2867,25 +2867,25 @@ packages:
       sonic-boom: 3.7.0
       thread-stream: 2.4.1
 
-  /platformatic@1.7.1(typescript@5.2.2):
-    resolution: {integrity: sha512-icEK+zVuj1osZ3bSejIm0qCBGPLAWTpsJxvW4phTIpSqdt6pWGv4hVmxojDcbn0/VfeK+4KFqKgkUAhaX8YXXQ==}
+  /platformatic@1.8.1(typescript@5.2.2):
+    resolution: {integrity: sha512-bpK/85kaMQN8fcagvvFdsrZoqWCCyXC+13oQ9wAw5CAcVgag98NQ5PtX/aPEqTwsLZ94MchLB//HM+xs51sdtw==}
     hasBin: true
     dependencies:
-      '@fastify/error': 3.4.0
-      '@platformatic/authenticate': 1.7.1
-      '@platformatic/client-cli': 1.7.1
-      '@platformatic/composer': 1.7.1
-      '@platformatic/config': 1.7.1
-      '@platformatic/db': 1.7.1(typescript@5.2.2)
-      '@platformatic/deploy-client': 1.7.1(typescript@5.2.2)
-      '@platformatic/frontend-template': 1.7.1(typescript@5.2.2)
-      '@platformatic/metaconfig': 1.7.1
-      '@platformatic/runtime': 1.7.1(typescript@5.2.2)
-      '@platformatic/service': 1.7.1
-      '@platformatic/utils': 1.7.1
+      '@fastify/error': 3.4.1
+      '@platformatic/authenticate': 1.8.1
+      '@platformatic/client-cli': 1.8.1
+      '@platformatic/composer': 1.8.1
+      '@platformatic/config': 1.8.1
+      '@platformatic/db': 1.8.1(typescript@5.2.2)
+      '@platformatic/deploy-client': 1.8.1(typescript@5.2.2)
+      '@platformatic/frontend-template': 1.8.1(typescript@5.2.2)
+      '@platformatic/metaconfig': 1.8.1
+      '@platformatic/runtime': 1.8.1(typescript@5.2.2)
+      '@platformatic/service': 1.8.1
+      '@platformatic/utils': 1.8.1
       colorette: 2.0.20
       commist: 3.2.0
-      create-platformatic: 1.7.1
+      create-platformatic: 1.8.1
       desm: 1.3.0
       dotenv: 16.3.1
       execa: 8.0.1
@@ -2894,7 +2894,7 @@ packages:
       minimist: 1.2.8
       pino: 8.16.1
       pino-pretty: 10.2.3
-      undici: 5.27.0
+      undici: 5.27.2
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -3438,8 +3438,8 @@ packages:
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  /undici@5.27.0:
-    resolution: {integrity: sha512-l3ydWhlhOJzMVOYkymLykcRRXqbUaQriERtR70B9LzNkZ4bX52Fc8wbTDneMiwo8T+AemZXvXaTx+9o5ROxrXg==}
+  /undici@5.27.2:
+    resolution: {integrity: sha512-iS857PdOEy/y3wlM3yRp+6SNQQ6xU0mmZcwRSriqk+et/cwWAtwmIGf6WkoDN2EK/AMdCO/dfXzIwi+rFMrjjQ==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.0.0
@@ -3535,8 +3535,8 @@ packages:
   /yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
 
-  /yaml@2.3.3:
-    resolution: {integrity: sha512-zw0VAJxgeZ6+++/su5AFoqBbZbrEakwu+X0M5HmcwUiBL7AzcuPKjj5we4xfQLp78LkEMpD0cOnUhmgOVy3KdQ==}
+  /yaml@2.3.4:
+    resolution: {integrity: sha512-8aAvwVUSHpfEqTQ4w/KMlf3HcRdt50E5ODIQJBw1fQ5RL34xabzxtUlzTXVqc4rkZsPbvrXKWnABCD7kWSmocA==}
     engines: {node: '>= 14'}
     dev: false
 

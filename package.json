@@ -8,13 +8,13 @@
     "test": "tsc && node --test dist/test/plugins/example.test.js"
   },
   "dependencies": {
-    "@platformatic/db": "^1.7.1",
-    "platformatic": "^1.7.1",
-    "@fastify/static": "^6.11.2",
-    "fluent-json-schema": "^4.1.0"
+    "@fastify/static": "^6.12.0",
+    "@platformatic/db": "^1.8.1",
+    "fluent-json-schema": "^4.2.1",
+    "platformatic": "^1.8.1"
   },
   "devDependencies": {
-    "@platformatic/sql-mapper": "^1.7.1",
+    "@platformatic/sql-mapper": "^1.8.1",
     "fastify": "^4.24.3",
     "typescript": "~5.2.2"
   },
